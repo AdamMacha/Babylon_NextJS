@@ -27,10 +27,18 @@ const HeroContent = () => {
 
             <motion.p
             variants={slideInFromLeft(0.8)}
-            className='text-lg text-gray-400 my-5 max-w-[600px]'
+            className='text-lg text-gray-400 my-4 max-w-[600px]'
             >
-                We provide the best signals for everyone
+                Searching for high-potential tokens on Solana
             </motion.p>
+
+            <motion.p
+            variants={slideInFromLeft(0.8)}
+            className='text-lg text-gray-400 my-1 max-w-[600px]'
+            >
+                We combine fundamental analysis with tracking current trends
+            </motion.p>
+
             <motion.a
             href='https://discord.gg/9JrkwhYE'
             variants={slideInFromLeft(1)}
