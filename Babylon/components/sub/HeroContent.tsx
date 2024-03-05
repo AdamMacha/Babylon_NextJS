@@ -20,8 +20,8 @@ const HeroContent = () => {
             className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
             >
                 <span>
-                Welcome in 
-                <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Babylon </span>
+                
+                <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Welcome in Babylon </span>
                 </span>
             </motion.div>
 
@@ -32,6 +32,7 @@ const HeroContent = () => {
                 We provide the best signals for everyone
             </motion.p>
             <motion.a
+            href='https://discord.gg/9JrkwhYE'
             variants={slideInFromLeft(1)}
             className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
             >
@@ -45,7 +46,7 @@ const HeroContent = () => {
         >
         <Image
         //TODO
-          src=""
+          src="/violetLogo.png"
           alt="work icons"
           height={650}
           width={650}
