@@ -99,7 +99,7 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           />
 
-          <span className="font-bold ml-[10px] text-xl hidden md:block text-gray-300">
+          <span className="bungee-regular ml-[10px] text-xl hidden md:block text-gray-300">
             Solana Babylon
           </span>
         </a>
@@ -116,16 +116,16 @@ const Navbar = () => {
           } md:flex md:w-[600px] md:flex-row items-center justify-between md:mr-20 mt-2 md:mt-0`}
         >
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer">
+            <a href="#about-me" className="bungee-regular cursor-pointer">
               Chart
             </a>
-            <a href="https://discord.gg/9JrkwhYE" className="hidden sm:block cursor-pointer">
+            <a href="https://discord.gg/9JrkwhYE" className="bungee-regular hidden sm:block cursor-pointer">
                Discord
              </a>
-            <a href="https://linktr.ee/Solana_Babylon" className="hidden sm:block cursor-pointer">
+            <a href="https://linktr.ee/Solana_Babylon" className="bungee-regular hidden sm:block cursor-pointer">
               Linktree
             </a>
-            <a href="https://www.instagram.com/solana_babylon/" className="cursor-pointer">
+            <a href="https://www.instagram.com/solana_babylon/" className="bungee-regular cursor-pointer">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> BUY $BBLN </span>
             </a>
           </div>

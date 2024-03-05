@@ -21,20 +21,20 @@ const HeroContent = () => {
             >
                 <span>
                 
-                <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Welcome in Babylon </span>
+                <span className='bungee-regular text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Welcome in Babylon </span>
                 </span>
             </motion.div>
 
             <motion.p
             variants={slideInFromLeft(0.8)}
-            className='text-lg text-gray-400 my-4 max-w-[600px]'
+            className='poppins-regular text-lg text-gray-400 my-4 max-w-[600px]'
             >
                 Searching for high-potential tokens on Solana
             </motion.p>
 
             <motion.p
             variants={slideInFromLeft(0.8)}
-            className='text-lg text-gray-400 my-1 max-w-[600px]'
+            className='poppins-regular text-lg text-gray-400 my-1 max-w-[600px]'
             >
                 We combine fundamental analysis with tracking current trends
             </motion.p>
