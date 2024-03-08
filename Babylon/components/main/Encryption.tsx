@@ -23,7 +23,7 @@ const Encryption = () => {
       <div className="flex flex-col items-center justify-center w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
           <Image
-            src="/table_tokenomics.jpg"
+            src="/tokenomics.jpg"
             alt="Lock Main"
             width={1000}
             height={1000}
