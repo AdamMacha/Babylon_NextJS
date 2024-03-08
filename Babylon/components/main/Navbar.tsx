@@ -116,7 +116,7 @@ const Navbar = () => {
           } md:flex md:w-[600px] md:flex-row items-center justify-between md:mr-20 mt-2 md:mt-0`}
         >
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="bungee-regular cursor-pointer">
+            <a href="https://dexscreener.com/solana/8y5mdnbfq2mw4q19oheh21g2zuc6shaxaysuphw8qdzz" className="bungee-regular cursor-pointer">
               Chart
             </a>
             <a href="https://discord.gg/9JrkwhYE" className="bungee-regular hidden sm:block cursor-pointer">
@@ -125,7 +125,7 @@ const Navbar = () => {
             <a href="https://linktr.ee/Solana_Babylon" className="bungee-regular hidden sm:block cursor-pointer">
               Linktree
             </a>
-            <a href="https://www.instagram.com/solana_babylon/" className="bungee-regular cursor-pointer">
+            <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=DQBMpNH6zWRGY9kTyQ31y5FCgShANTucsbb39oKfXRKx&inputAmount=0.376090269&outputAmount=1087073.641984&fixed=in" className="bungee-regular cursor-pointer">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> BUY $BBLN </span>
             </a>
           </div>
