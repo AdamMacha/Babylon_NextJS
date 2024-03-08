@@ -125,7 +125,7 @@ const Navbar = () => {
             <a href="https://linktr.ee/Solana_Babylon" className="bungee-regular hidden sm:block cursor-pointer">
               Linktree
             </a>
-            <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=DQBMpNH6zWRGY9kTyQ31y5FCgShANTucsbb39oKfXRKx&inputAmount=0.376090269&outputAmount=1087073.641984&fixed=in" className="bungee-regular cursor-pointer">
+            <a href="https://jup.ag/swap/BBLN_DQBMpNH6zWRGY9kTyQ31y5FCgShANTucsbb39oKfXRKx-SOL" className="bungee-regular cursor-pointer">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> BUY $BBLN </span>
             </a>
           </div>
