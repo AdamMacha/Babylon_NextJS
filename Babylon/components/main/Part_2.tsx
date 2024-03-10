@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
 
-const Encryption = () => {
+const Part_2 = () => {
   return (
     <div className="flex flex-col relative items-center justify-center min-h-fit w-full h-full">
        <div className="flex w-auto h-auto top-0 mb-2 z-[5]">
-        <motion.div
+        {/* <motion.div
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
         >
@@ -17,13 +17,13 @@ const Encryption = () => {
           <span className="bungee-regular text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
           Our $BBLN token:
           </span>
-        </motion.div>
+        </motion.div> */}
       </div> 
 
       <div className="flex flex-col items-center justify-center w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
           <Image
-            src="/tokenomics.jpg"
+            src="/HowToBuy.jpg"
             alt="Lock Main"
             width={700}
             height={700}
@@ -56,4 +56,4 @@ const Encryption = () => {
   );
 };
 
-export default Encryption;
+export default Part_2;

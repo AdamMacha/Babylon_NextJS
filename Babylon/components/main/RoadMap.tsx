@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
 
-const Encryption = () => {
+const RoadMap = () => {
   return (
     <div className="flex flex-col relative items-center justify-center min-h-fit w-full h-full">
        <div className="flex w-auto h-auto top-0 mb-2 z-[5]">
@@ -15,7 +15,7 @@ const Encryption = () => {
         >
           
           <span className="bungee-regular text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-          Our $BBLN token:
+          Babylon Roadmap:
           </span>
         </motion.div>
       </div> 
@@ -23,7 +23,7 @@ const Encryption = () => {
       <div className="flex flex-col items-center justify-center w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
           <Image
-            src="/tokenomics.jpg"
+            src="/Roadmap.jpg"
             alt="Lock Main"
             width={700}
             height={700}
@@ -56,4 +56,4 @@ const Encryption = () => {
   );
 };
 
-export default Encryption;
+export default RoadMap;
