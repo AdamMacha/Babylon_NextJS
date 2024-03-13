@@ -119,7 +119,7 @@ const Navbar = () => {
             <a href="https://dexscreener.com/solana/8y5mdnbfq2mw4q19oheh21g2zuc6shaxaysuphw8qdzz" className="bungee-regular cursor-pointer">
               Chart
             </a>
-            <a href="https://discord.gg/9JrkwhYE" className="bungee-regular hidden sm:block cursor-pointer">
+            <a href="https://discord.gg/Ds5pPSJZev" className="bungee-regular hidden sm:block cursor-pointer">
                Discord
              </a>
             <a href="https://linktr.ee/Solana_Babylon" className="bungee-regular hidden sm:block cursor-pointer">
@@ -135,7 +135,7 @@ const Navbar = () => {
           <a href="https://www.instagram.com/solana_babylon/">
             <Image src={Socials[0].src} alt={Socials[0].name} key={Socials[0].name} width={24} height={24} />
           </a>
-          <a href="https://discord.gg/q5gdKzdY">
+          <a href="https://discord.gg/Ds5pPSJZev">
             <Image src={Socials[1].src} alt={Socials[1].name} key={Socials[1].name} width={24} height={24} />
           </a>
         </div>
